@@ -1,0 +1,6 @@
+{
+    "prettier.disableLanguages": [
+        "typescript"
+    ],
+    "editor.formatOnSave": true
+}
