@@ -1,14 +1,8 @@
 import React from 'react';
-import {View, Text} from 'App/Tailwind';
-
-import style from 'App/Styles/Global';
+import RootNavigator from './RootNavigator';
 
 const App = () => {
-  return (
-    <View className={style.container}>
-      <Text className={style.title}>Log in</Text>
-    </View>
-  );
+  return <RootNavigator />;
 };
 
 export default App;
